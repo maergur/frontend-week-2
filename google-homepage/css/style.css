@@ -1,18 +1,49 @@
+ul {
+  padding: 0;
+  list-style-type: none;
+}
 .header {
   list-style-type: none;
   margin: 10px;
   overflow: hidden;
-  margin-right: 16px;
+  margin-right: 8px;
   font-family: arial,sans-serif;
   font-size: 13px;
 }
+.pic {
+  
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2.5px 2.5px;
+  text-decoration: none;
+  float:right;
+  
 
+}
+
+.pp{
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
 .headerli a {
   display: block;
   color: black;
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
+  float:right;
+}
+
+.headerlileft a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  float:left;
 }
 
 .headerli a:hover {
@@ -20,6 +51,7 @@
 }
 
 .container {
+  padding-top: 49px;
   text-align: center;
   margin: 100px;
 }
@@ -39,6 +71,8 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 24px;
+
 }
 
 .search-area:hover {
@@ -107,25 +141,48 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border: none;
+  width: 480px;
 }
-
+.voicelogo {
+  flex: 0 0 auto;
+  margin-top: 5px;
+  margin-right: 5px;
+  align-items: stretch;
+  flex-direction: row;
+}
 .googlesearch {
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+  background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .feelinglucky {
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+  background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 
@@ -135,6 +192,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   overflow: hidden;
   border: 1px solid #dfe1e5;
   border-top: 1px solid #dadce0;
+  background-color: #f2f2f2;
   position: fixed;
   bottom: 0;
   width: 100%;
